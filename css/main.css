@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
+
+:root {
+    --main-bg-color: #3196cc;
+    /* color.adobe.com, Monochromatic, based on the first color */
+    --color1: #1F5E80;
+    --color2: #8AD6FF;
+    --color3: #3DBBFF;
+    --color4: #456B80;
+    --color5: #3196CC;
+}
+
+body, html {
+    height: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    background-color: var(--main-bg-color);
+
+    margin: 0;
+    display: grid;
+    grid-template-rows: 10% auto;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.logo {
+    height: 52px;
+}
+
+.logo a {
+    background-color: var(--color3);
+    float: right;
+}
+
+#logo-img {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 8px;
+    padding-bottom: 6px;
+    width:34px;
+    height:34px;
+}
+
+header {
+    background-color: var(--color1);
+    color: #fff;
+    padding: 0 50px;
+    display: grid;
+    grid-template-columns: [logo-start] fit-content(20%) [nav-start] auto [nav-end];
+}
+
+header ul {
+    list-style-type: none;
+    float: right;
+}
+
+header ul li {
+    display: inline;
+}
+
+header ul li a {
+    color: #fff;
+    padding: 15px;
+}
+
+.headerText {
+    padding: 15px;
+    display: inline-block;
+}
+
+#logo {
+    padding: 10px;
+}
+
+.main {
+    display: grid;
+    grid-template-rows: 51px repeat(5, auto);
+    grid-template-areas:
+        "head"
+        "hero"
+        "about"
+        "experience"
+        "projects"
+        "contact";
+}
+
+section {
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+section#hero {
+    background-color: var(--color2);    
+    padding: 2em;
+    min-height: 100vh;
+    margin: 0px auto;
+}
+
+section#about {
+    background-color: #fff;
+    padding: 2em;
+}
+
+section#experience {
+    background-color: var(--color4); 
+    color: #fff;   
+    padding: 2em;
+}
+
+section#projects {
+    background-color: var(--color5);   
+    padding: 2em; 
+}
+section#contact {
+    background-color: var(--color2);    
+    padding: 2em;
+}
