@@ -7,25 +7,24 @@
     <title>Chris Hofer | Software Engineer</title>
 </head>
 <body>
+    <header id="navHeader">
+        <div class="logo">
+            <a href="#hero"><img id="logo-img" src="images/ch_icon.png" alt="Chris Hofer Logo" /></a>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
     <div class="main">
-        <header id="navHeader" class="sticky">
-            <div class="logo">
-                <a href="#hero"><img id="logo-img" src="images/ch_icon.png" alt="Chris Hofer Logo" /></a>
-            </div>
-            <nav>
-                <ul>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#experience">Experience</a></li>
-                    <li><a href="#projects">Projects</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-            </nav>
-        </header>
         <section id="hero">
-            <div id="content">
                 <h1>Hi, I'm Chris</h1>
+                <h2>Nice to meet you.</h2>
                 <p>I am a software architect who is passionate about writing clean, efficient code with a decade of experience working with computers from embedded systems to supercomputers.</p>
-            </div>
         </section>
         <section id="about">
             <div id="content">
@@ -52,6 +51,18 @@
             </div>
         </section>
     </div>
-
+    <script>
+        /* When the user scrolls down, hide the navbar. When the user scrolls up, show the navbar */
+        var prevScrollpos = window.pageYOffset;
+        window.onscroll = function() {
+        var currentScrollPos = window.pageYOffset;
+        if (prevScrollpos > currentScrollPos) {
+            document.getElementById("navHeader").style.top = "0";
+        } else {
+            document.getElementById("navHeader").style.top = "-52px";
+        }
+        prevScrollpos = currentScrollPos;
+        } 
+    </script>
 </body>
 </html>

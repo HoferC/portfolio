@@ -22,13 +22,12 @@ body {
     background-color: var(--main-bg-color);
 
     margin: 0;
-    display: grid;
-    grid-template-rows: 10% auto;
     font-family: 'Montserrat', sans-serif;
 }
 
 .logo {
-    height: 52px;
+    height: 51px;
+    padding: 0 50px;
 }
 
 .logo a {
@@ -40,15 +39,19 @@ body {
     padding-left: 10px;
     padding-right: 10px;
     padding-top: 8px;
-    padding-bottom: 6px;
+    padding-bottom: 5px;
     width:34px;
     height:34px;
 }
 
 header {
+    position: fixed;
+    transition: top 0.3s;
+    width:100%;
+    top: 0;
+
     background-color: var(--color1);
     color: #fff;
-    padding: 0 50px;
     display: grid;
     grid-template-columns: [logo-start] fit-content(20%) [nav-start] auto [nav-end];
 }
@@ -72,15 +75,18 @@ header ul li a {
     display: inline-block;
 }
 
+.hideHeader {
+    transform: translateY(-52px);
+}
+
 #logo {
     padding: 10px;
 }
 
 .main {
     display: grid;
-    grid-template-rows: 51px repeat(5, auto);
+    grid-template-rows: repeat(5, auto);
     grid-template-areas:
-        "head"
         "hero"
         "about"
         "experience"
@@ -89,15 +95,18 @@ header ul li a {
 }
 
 section {
-    margin-left: 300px;
-    margin-right: 300px;
+    max-width: 1000px;
+    margin: 0 auto;
 }
 
 section#hero {
+    display: flex;
+    flex-direction: column;
     background-color: var(--color2);    
     padding: 2em;
     min-height: 100vh;
-    margin: 0px auto;
+    
+    justify-content: center;
 }
 
 section#about {
@@ -118,4 +127,8 @@ section#projects {
 section#contact {
     background-color: var(--color2);    
     padding: 2em;
+}
+
+h1 {
+    font-size: 80px;
 }
