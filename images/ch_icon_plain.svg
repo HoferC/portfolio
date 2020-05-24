@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   width="200mm"
+   height="200mm"
+   viewBox="0 0 200 200"
+   version="1.1"
+   id="svg8">
+  <defs
+     id="defs2" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     id="layer1">
+    <g
+       style="font-style:normal;font-weight:normal;font-size:110.594px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.576015"
+       id="text12"
+       aria-label="CH">
+      <path
+         id="path12"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:110.594px;font-family:Bahnschrift;-inkscape-font-specification:Bahnschrift;fill:#000000;stroke-width:0.576015"
+         d="m 64.680348,140.29708 q -8.154148,0 -14.36426,-3.61807 -6.156111,-3.61807 -9.558173,-10.26019 -3.402062,-6.64212 -3.402062,-15.39027 V 89.482155 q 0,-8.748158 3.402062,-15.390278 3.402062,-6.64212 9.558173,-10.260186 6.210112,-3.672066 14.36426,-3.672066 6.750122,0 12.420225,2.916052 5.670102,2.862052 9.450171,8.154148 3.834069,5.292096 5.184094,12.258222 v 0 H 80.448633 v 0 q -1.026018,-3.672067 -3.456062,-6.534118 -2.376043,-2.916053 -5.616102,-4.482081 -3.240058,-1.566029 -6.696121,-1.566029 -4.806087,0 -8.424152,2.322042 -3.618066,2.322042 -5.616102,6.534119 -1.998036,4.158075 -1.998036,9.720175 v 21.546395 q 0,5.5081 1.998036,9.72017 1.998036,4.21208 5.616102,6.53412 3.618065,2.26804 8.424152,2.26804 3.510064,0 6.696121,-1.45803 3.240059,-1.45802 5.616102,-4.32007 2.430044,-2.86206 3.456062,-6.80413 v 0 h 11.286205 v 0 q -1.350025,6.96613 -5.184094,12.25822 -3.83407,5.2921 -9.504172,8.20815 -5.670103,2.86206 -12.366224,2.86206 z" />
+      <path
+         id="path15"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:110.594px;font-family:Bahnschrift;-inkscape-font-specification:Bahnschrift;fill:#000000;stroke-width:0.576015"
+         d="m 150.97391,60.969639 h 11.0162 v 78.517421 h -11.0162 z m -44.60481,0 h 11.0162 v 78.517421 h -11.0162 z m 6.85813,34.614627 h 43.57878 v 10.476194 h -43.57878 z" />
+    </g>
+    <ellipse
+       id="path14"
+       cx="99.999992"
+       cy="100.00001"
+       style="fill:none;stroke:#000000;stroke-width:8.31606;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       rx="95.219307"
+       ry="95.219315" />
+  </g>
+</svg>

@@ -31,7 +31,7 @@ body {
 }
 
 .logo a {
-    background-color: var(--color3);
+    background-color: var(--color1);
     float: right;
 }
 
@@ -42,6 +42,8 @@ body {
     padding-bottom: 5px;
     width:34px;
     height:34px;
+    fill: #fff;
+    stroke: #fff;
 }
 
 header {
@@ -89,7 +91,7 @@ ul#navMenu li a {
 	right:0;
 	width:51px;
 	height:51px;
-	background-color:var(--color3);
+	background-color:var(--color1);
     cursor:pointer;
     /* hidden by default on large screens */
     display: none;

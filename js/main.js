@@ -3,7 +3,9 @@ var prevScrollpos = window.pageYOffset;
 window.onscroll = function() {
     this.resetNavMenu();
     var currentScrollPos = window.pageYOffset;
-    if (prevScrollpos > currentScrollPos) {
+    // Check for scroll pos <= 0 because iOS lets you scroll up past 0
+    // And that was triggering issues with the 
+    if (prevScrollpos > currentScrollPos || currentScrollPos <= 0) {
         document.getElementById("navHeader").style.top = "0";
     } else {
         document.getElementById("navHeader").style.top = "-52px";

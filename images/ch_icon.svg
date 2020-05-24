@@ -7,44 +7,47 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   sodipodi:docname="ch_icon.svg"
-   inkscape:version="1.0 (4035a4fb49, 2020-05-01)"
-   id="svg8"
-   version="1.1"
-   viewBox="0 0 200 200"
+   inkscape:export-ydpi="96"
+   inkscape:export-xdpi="96"
+   inkscape:export-filename="C:\Users\chris\source\repos\portfolio\images\ch_icon.png"
+   width="200mm"
    height="200mm"
-   width="200mm">
+   viewBox="0 0 200 200"
+   version="1.1"
+   id="svg8"
+   inkscape:version="1.0 (4035a4fb49, 2020-05-01)"
+   sodipodi:docname="ch_icon.svg">
   <defs
      id="defs2" />
   <sodipodi:namedview
-     inkscape:window-maximized="1"
-     inkscape:window-y="-8"
-     inkscape:window-x="-8"
-     inkscape:window-height="1017"
-     inkscape:window-width="1920"
-     inkscape:guide-bbox="true"
-     showguides="true"
-     showgrid="false"
-     inkscape:document-rotation="0"
-     inkscape:current-layer="layer1"
-     inkscape:document-units="mm"
-     inkscape:cy="392.71938"
-     inkscape:cx="379.20485"
-     inkscape:zoom="0.70710678"
-     inkscape:pageshadow="2"
-     inkscape:pageopacity="0.0"
-     borderopacity="1.0"
-     bordercolor="#666666"
+     id="base"
      pagecolor="#ffffff"
-     id="base">
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.70710678"
+     inkscape:cx="138.08144"
+     inkscape:cy="392.71938"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     inkscape:document-rotation="0"
+     showgrid="false"
+     showguides="true"
+     inkscape:guide-bbox="true"
+     inkscape:window-width="2560"
+     inkscape:window-height="1377"
+     inkscape:window-x="1912"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1">
     <sodipodi:guide
-       id="guide839"
+       position="99.999063,153.30517"
        orientation="1,0"
-       position="99.999063,153.30517" />
+       id="guide839" />
     <sodipodi:guide
-       id="guide841"
+       position="2.5490831,100.00111"
        orientation="0,-1"
-       position="2.5490831,100.00111" />
+       id="guide841" />
   </sodipodi:namedview>
   <metadata
      id="metadata5">
@@ -54,31 +57,35 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
   <g
-     id="layer1"
+     inkscape:label="Layer 1"
      inkscape:groupmode="layer"
-     inkscape:label="Layer 1">
+     id="layer1">
     <text
-       id="text12"
-       y="139.93309"
-       x="28.456604"
-       style="font-style:normal;font-weight:normal;font-size:111.844px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.582521"
-       xml:space="preserve"><tspan
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:111.844px;font-family:Bahnschrift;-inkscape-font-specification:Bahnschrift;stroke-width:0.582521"
-         y="139.93309"
-         x="28.456604"
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:110.594px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.576015;"
+       x="29.255707"
+       y="139.48706"
+       id="text12"><tspan
+         sodipodi:role="line"
          id="tspan10"
-         sodipodi:role="line">CH</tspan></text>
+         x="29.255707"
+         y="139.48706"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:110.594px;font-family:Bahnschrift;-inkscape-font-specification:Bahnschrift;stroke-width:0.576015;fill:#000000;">CH</tspan></text>
     <ellipse
-       ry="96.294876"
-       rx="96.294868"
-       style="fill:none;stroke:#000000;stroke-width:8.41;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       id="path14"
+       cx="99.999992"
        cy="100.00001"
-       cx="100"
-       id="path14" />
+       style="fill:none;stroke:#000000;stroke-width:8.31606;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       rx="95.219307"
+       ry="95.219315" />
   </g>
 </svg>
