@@ -12,19 +12,25 @@
             <a href="#hero"><img id="logo-img" src="images/ch_icon.png" alt="Chris Hofer Logo" /></a>
         </div>
         <nav>
-            <ul>
+            <ul id="navMenu">
                 <li><a href="#about">About</a></li>
                 <li><a href="#experience">Experience</a></li>
                 <li><a href="#projects">Projects</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
+            <div id="nav-toggle" onclick="navMenuClick()">
+				<span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+			</div>
         </nav>
     </header>
+    <div class="nav-overlay"></div>
     <div class="main">
         <section id="hero">
                 <h1>Hi, I'm Chris</h1>
                 <h2>Nice to meet you.</h2>
-                <p>I am a software architect who is passionate about writing clean, efficient code with a decade of experience working with computers from embedded systems to supercomputers.</p>
+                <p>I am a software architect who is passionate about writing legible, efficient code with a decade of experience working with computers from embedded systems to supercomputers.</p>
         </section>
         <section id="about">
             <div id="content">
@@ -52,17 +58,8 @@
         </section>
     </div>
     <script>
-        /* When the user scrolls down, hide the navbar. When the user scrolls up, show the navbar */
-        var prevScrollpos = window.pageYOffset;
-        window.onscroll = function() {
-        var currentScrollPos = window.pageYOffset;
-        if (prevScrollpos > currentScrollPos) {
-            document.getElementById("navHeader").style.top = "0";
-        } else {
-            document.getElementById("navHeader").style.top = "-52px";
-        }
-        prevScrollpos = currentScrollPos;
-        } 
+        
     </script>
+    <script src="js/main.js"></script>
 </body>
 </html>
