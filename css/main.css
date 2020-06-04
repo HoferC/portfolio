@@ -1,10 +1,10 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
+@import url('https://fonts.googleapis.com/css?family=Merriweather+Sans:wght@700&family=Roboto:400,700');
 
 :root {
-    --main-bg-color: #3196cc;
-    /* color.adobe.com, Monochromatic, based on the first color */
-    --color1: #1F5E80;
-    --color2: #8AD6FF;
+    --main-bg-color: #115D8A;
+    /* color.adobe.com, Complementary, based on the third color */
+    --navbar-color: #52bfff;
+    --link-color: #FFAA3D;
     --color3: #3DBBFF;
     --color4: #456B80;
     --color5: #3196CC;
@@ -12,17 +12,40 @@
 
 body, html {
     height: 100%;
+    color: white;
 }
 
 a {
     text-decoration: none;
 }
 
+body a {
+    color: var(--link-color);
+}
+
+
+h1 {
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 80px;
+}
+
+h2 {
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 40px;
+    text-align: center;
+}
+
+
+h3 {
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
 body {
     background-color: var(--main-bg-color);
-
+    line-height: 1.4;
     margin: 0;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
 }
 
 .logo {
@@ -31,7 +54,7 @@ body {
 }
 
 .logo a {
-    background-color: var(--color1);
+    background-color: var(--navbar-color);
     float: right;
 }
 
@@ -39,7 +62,7 @@ body {
     padding-left: 10px;
     padding-right: 10px;
     padding-top: 8px;
-    padding-bottom: 4px;
+    padding-bottom: 2px;
     width:34px;
     height:34px;
     fill: #fff;
@@ -52,7 +75,7 @@ header {
     width:100%;
     top: 0;
 
-    background-color: var(--color1);
+    background-color: var(--navbar-color);
     color: #fff;
     display: grid;
     grid-template-columns: [logo-start] fit-content(20%) [nav-start] auto [nav-end];
@@ -85,13 +108,17 @@ ul#navMenu li a {
     padding: 10px;
 }
 
+nav {
+    line-height: 1.0;
+}
+
 #nav-toggle{
 	position:absolute;
 	top:0;
 	right:0;
 	width:51px;
 	height:51px;
-	background-color:var(--color1);
+	background-color:var(--navbar-color);
     cursor:pointer;
     /* hidden by default on large screens */
     display: none;
@@ -163,7 +190,9 @@ span.icon-bar{
 	visibility:visible;
 }
 
-
+.hero-text {
+    text-align: left;
+}
 
 .main {
     display: grid;
@@ -185,30 +214,47 @@ section {
 section#hero {
     display: flex;
     flex-direction: column;
-    background-color: var(--color2);    
+    background-color: var(--main-bg-color);    
     min-height: 100vh;
-    
     justify-content: center;
 }
 
 section#about {
-    background-color: #fff;
+    background-color: var(--main-bg-color);
 }
 
 section#experience {
-    background-color: var(--color4); 
-    color: #fff;   
+    background-color: var(--main-bg-color);  
 }
 
 section#projects {
-    background-color: var(--color5);   
+    background-color: var(--main-bg-color);   
 }
 section#contact {
-    background-color: var(--color2);    
+    background-color: var(--main-bg-color);
+    text-align: center;
 }
 
-h1 {
-    font-size: 80px;
+.skills {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(140px, 200px));
+}
+
+.button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 1.5rem 2rem;
+    border: 1px solid var(--link-color);
+    border-radius: 5px;
+    color: var(--link-color);
+    text-align: center;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    font-size: 14px;
 }
 
 @media screen and (max-width: 60em) {
@@ -218,6 +264,10 @@ h1 {
     
     h1 {
         font-size: 55px;
+    }
+
+    h2 {
+        font-size: 30px;
     }
 
     section {
@@ -256,10 +306,14 @@ h1 {
         width:100%;
 		padding:0;
 		text-align:center;
-		background-color: var(--color1);
+		background-color: var(--navbar-color);
     }
 
     ul#navMenu.active {
         height: auto;
+    }
+
+    .skills {
+        grid-template-columns: repeat(2, minmax(140px, 200px));
     }
 }
